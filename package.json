@@ -1,0 +1,27 @@
+{
+  "name": "@makhlouf/react-native-storage",
+  "version": "1.0.3",
+  "description": "Easy to use local storage with state manegement. Use the return values as state and it saves all changes to local storage.",
+  "main": "Storage.js",
+  "scripts": {
+    "publish": "npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moustafa19m/react-native-storage.git"
+  },
+  "keywords": [
+    "ios",
+    "local storage",
+    "react-native",
+    "react",
+    "android",
+    "state"
+  ],
+  "author": "makhlouf",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/moustafa19m/react-native-storage/issues"
+  },
+  "homepage": "https://github.com/moustafa19m/react-native-storage#readme"
+}
