@@ -1,6 +1,6 @@
 {
   "name": "@makhlouf/react-native-storage",
-  "version": "1.0.3",
+  "version": "1.0.0",
   "description": "Easy to use local storage with state manegement. Use the return values as state and it saves all changes to local storage.",
   "main": "Storage.js",
   "scripts": {

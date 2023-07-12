@@ -4,7 +4,7 @@ import React, {useEffect} from 'react';
 export default Storage = (() => {
   const storage = {};
 
-  const useStorage = (defaultValue, tag, setFinished) => {
+  const useStorage = (defaultValue, tag, onFinished) => {
     // captures saved state if it exists
     // if not get it from async storage
     // if it doesn't exist in async storage, set it to default value
@@ -71,7 +71,7 @@ export default Storage = (() => {
         console.log(error);
         alert('error saving data. please reach out to support');
       } finally {
-        setFinished && setFinished(true);
+        onFinished && onFinished();
       }
     };
 
